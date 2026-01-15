@@ -1,0 +1,1 @@
+console.log("Futebol News carregado com sucesso");

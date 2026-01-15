@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.topo {
+  background: #0b6623;
+  color: white;
+  padding: 15px;
+}
+
+.topo nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.destaque {
+  display: flex;
+  background: black;
+  color: white;
+}
+
+.destaque img {
+  width: 60%;
+  object-fit: cover;
+}
+
+.texto-destaque {
+  padding: 20px;
+}
+
+.texto-destaque a {
+  color: #00ff88;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3, .card p {
+  padding: 10px;
+}
+
+.card a {
+  display: block;
+  padding: 10px;
+  background: #0b6623;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.noticia {
+  padding: 20px;
+  background: white;
+  margin: 20px;
+}
+
+.noticia img {
+  width: 100%;
+  margin: 15px 0;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
